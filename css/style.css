@@ -1,0 +1,152 @@
+html {
+    font-family: 'Montserrat';
+    font-size: 0.85rem;
+}
+
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+
+header {
+    background-color: #364552;
+    color: white;
+    padding: 10px 10px 190px;
+}
+
+header h1 {
+    font-size: 3rem;
+    text-align:center;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    text-align:center;
+}
+
+.right {
+    width: 80%;
+    float: right;
+}
+
+.left {
+    width: 20%;
+    float: left;
+}
+
+.fecha {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+
+.container {
+    width: 97%;
+    margin: 0 auto;
+}
+
+section article {
+    transition: box-shadow 0.3s ease; /* Le indicamos que porpiedades del css queremos que sean animadas. Tenemos que indicar el principio y el fin. El tiempo que dure la transicion. ease es el algoritmo de la transicion */
+    background-color: #fff;
+    margin: 1rem 0;      /* 1 rem vertical y 0 horizontal */
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;    /* Cambia el cursor a la manito */
+}
+
+section article h2, section article p {
+    margin: 1rem;
+}
+
+section article:hover {
+    box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.559);   /* Muy utilizada, se le debe indicar desplazamiento a la izauierda y hacia abajo y luego la difuminacion que quiero darle. Luego ponemos el color en este caso rgb negro con un 30% de visibilidad */
+    background-color: bisque;
+}
+
+.dato {
+    text-align: justify;
+}
+
+#boton_mostrar {
+    margin: 1rem;
+    font-size: small;
+    color:rgba(0, 0, 255, 0.949); 
+}
+
+#boton_ocultar {
+    margin: 1rem;
+    font-size: small;
+    color:rgba(0, 0, 255, 0.949);
+}
+
+#boton_mostrar1 {
+    margin: 1rem;
+    font-size: small;
+    color:rgba(0, 0, 255, 0.949); 
+}
+
+#boton_ocultar1 {
+    margin: 1rem;
+    font-size: small;
+    color:rgba(0, 0, 255, 0.949);
+}
+
+#boton_mostrar2 {
+    margin: 1rem;
+    font-size: small;
+    color:rgba(0, 0, 255, 0.949); 
+}
+
+#boton_ocultar2 {
+    margin: 1rem;
+    font-size: small;
+    color:rgba(0, 0, 255, 0.949);
+}
+
+#boton_mostrar3 {
+    margin: 1rem;
+    font-size: small;
+    color:rgba(0, 0, 255, 0.949); 
+}
+
+#boton_ocultar3 {
+    margin: 1rem;
+    font-size: small;
+    color:rgba(0, 0, 255, 0.949);
+}
+
+
+
+
+footer {
+    background-color: #364552;
+    padding: 3rem;
+    color: whitesmoke;
+}
+
+footer section {
+    float: right;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;     /* Le quitamos la decoracion */
+}
+
+.color {
+    padding: 0.5rem;
+    border-style:solid;
+    border-color:whitesmoke;
+    border-radius: 0.5rem;
+    border-width: 0.1rem;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}
